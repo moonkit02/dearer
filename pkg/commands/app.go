@@ -32,7 +32,7 @@ func NewRootCommand() *cobra.Command {
 [0;37m█[0m    [0;37m█[0m [0;37m█▀▀▀▀[0m  [0;37m▄[0;1;30;90m▀▀▀█[0m   [0;1;30;90m█[0m     [0;1;30;90m█▀▀[0;1;34;94m▀▀[0m   [0;1;34;94m█[0m
 [0;37m█▄▄▄▄▀[0m [0;1;30;90m▀█▄▄▀[0m  [0;1;30;90m▀▄▄▀█[0m   [0;1;30;90m█[0m     [0;1;34;94m▀█▄▄▀[0m   [0;1;34;94m█[0m
 
-Scan your source code to discover, filter and prioritize security and privacy risks.
+YAHOO MUNKIT HERE Use this cool thing to scan your source code to discover, filter and prioritize security and privacy risks.
 
 Usage: bearer <command> [flags]
 
