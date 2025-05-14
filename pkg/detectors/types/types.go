@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 type DetectorConstructor func() Detector

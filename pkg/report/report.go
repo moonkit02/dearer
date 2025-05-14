@@ -1,17 +1,17 @@
 package report
 
 import (
-	"github.com/bearer/bearer/pkg/report/dependencies"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks"
-	"github.com/bearer/bearer/pkg/report/interfaces"
-	"github.com/bearer/bearer/pkg/report/operations"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/report/dependencies"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/report/operations"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/schema/datatype"
 
-	"github.com/bearer/bearer/pkg/report/secret"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/secret"
+	"github.com/moonkit02/dearer/pkg/report/source"
 )
 
 type Report interface {

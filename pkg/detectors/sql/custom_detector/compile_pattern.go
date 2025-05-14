@@ -3,12 +3,12 @@ package customdetector
 import (
 	"regexp"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/detectors/custom/config"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/custom"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/detectors/custom/config"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/custom"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var tableNameRegex = regexp.MustCompile(`\$TABLE_NAME`)

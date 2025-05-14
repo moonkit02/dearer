@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 	"github.com/spf13/viper"
 )
 

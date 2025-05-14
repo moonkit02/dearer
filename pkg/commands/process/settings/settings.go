@@ -3,13 +3,13 @@ package settings
 import (
 	"time"
 
-	"github.com/bearer/bearer/api"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	ignoretypes "github.com/bearer/bearer/pkg/util/ignore/types"
-	"github.com/bearer/bearer/pkg/util/regex"
-	"github.com/bearer/bearer/pkg/util/rego"
+	"github.com/moonkit02/dearer/api"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	ignoretypes "github.com/moonkit02/dearer/pkg/util/ignore/types"
+	"github.com/moonkit02/dearer/pkg/util/regex"
+	"github.com/moonkit02/dearer/pkg/util/rego"
 
-	globaltypes "github.com/bearer/bearer/pkg/types"
+	globaltypes "github.com/moonkit02/dearer/pkg/types"
 )
 
 var (

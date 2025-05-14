@@ -3,8 +3,8 @@ package traversalstrategy
 import (
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 	"github.com/bits-and-blooms/bitset"
 )
 

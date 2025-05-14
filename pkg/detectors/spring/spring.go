@@ -9,14 +9,14 @@ import (
 	"github.com/rs/zerolog/log"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks/spring"
-	"github.com/bearer/bearer/pkg/report/source"
-	"github.com/bearer/bearer/pkg/util/file"
-	"github.com/bearer/bearer/pkg/util/linescanner"
-	"github.com/bearer/bearer/pkg/util/pointers"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/spring"
+	"github.com/moonkit02/dearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/linescanner"
+	"github.com/moonkit02/dearer/pkg/util/pointers"
 )
 
 var (

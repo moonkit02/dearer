@@ -9,11 +9,11 @@ import (
 	"github.com/rs/zerolog/log"
 	sitter "github.com/smacker/go-tree-sitter"
 
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 )
 
 var ExpectedComment = regexp.MustCompile(`\A[^\w]*bearer:expected\s[\w,]+\z`)

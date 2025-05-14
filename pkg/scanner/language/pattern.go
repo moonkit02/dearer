@@ -1,7 +1,7 @@
 package language
 
 import (
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 )
 
 type PatternVariable struct {

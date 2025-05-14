@@ -3,7 +3,7 @@ package e2e_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/e2e/internal/testhelper"
+	"github.com/moonkit02/dearer/e2e/internal/testhelper"
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/stretchr/testify/assert"
 )

@@ -5,20 +5,20 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/bearer/bearer/pkg/detectors/openapi/v2json"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/v2json"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/util/file"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/mod/semver"
 	"sigs.k8s.io/yaml" // Need to use this as some features use custom JSON unmarshalling
 
-	"github.com/bearer/bearer/pkg/detectors/openapi/v2yaml"
-	"github.com/bearer/bearer/pkg/detectors/openapi/v3json"
-	"github.com/bearer/bearer/pkg/detectors/openapi/v3yaml"
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/v2yaml"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/v3json"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/v3yaml"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
 
-	reporttypes "github.com/bearer/bearer/pkg/report"
+	reporttypes "github.com/moonkit02/dearer/pkg/report"
 )
 
 type version struct {

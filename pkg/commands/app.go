@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
-	"github.com/bearer/bearer/pkg/engine"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/pkg/engine"
 )
 
 // NewApp is the factory method to return CLI

@@ -11,8 +11,8 @@ import (
 
 	"github.com/fatih/color"
 
-	types "github.com/bearer/bearer/pkg/util/ignore/types"
-	pointer "github.com/bearer/bearer/pkg/util/pointers"
+	types "github.com/moonkit02/dearer/pkg/util/ignore/types"
+	pointer "github.com/moonkit02/dearer/pkg/util/pointers"
 )
 
 const DefaultIgnoreFilepath = "bearer.ignore"

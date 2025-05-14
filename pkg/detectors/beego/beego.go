@@ -5,13 +5,13 @@ import (
 
 	"github.com/smacker/go-tree-sitter/golang"
 
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/golang_util"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks/beego"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/golang_util"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/beego"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 const ormPackage = "github.com/beego/beego/v2/client/orm"

@@ -3,9 +3,9 @@ package datatype
 import (
 	"sort"
 
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/schema/datatype"
 )
 
 type Scope struct {

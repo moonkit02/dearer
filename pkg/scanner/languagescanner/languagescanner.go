@@ -8,22 +8,22 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/ast"
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/ast"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
+	"github.com/moonkit02/dearer/pkg/util/file"
 
-	"github.com/bearer/bearer/pkg/scanner/cache"
-	"github.com/bearer/bearer/pkg/scanner/detectorset"
-	"github.com/bearer/bearer/pkg/scanner/rulescanner"
-	"github.com/bearer/bearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/scanner/cache"
+	"github.com/moonkit02/dearer/pkg/scanner/detectorset"
+	"github.com/moonkit02/dearer/pkg/scanner/rulescanner"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
 )
 
 type Scanner struct {

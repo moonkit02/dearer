@@ -1,6 +1,6 @@
 package common
 
-import "github.com/bearer/bearer/pkg/scanner/ast/tree"
+import "github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 
 func GetLiteralKey(keyNode *tree.Node) string {
 	switch keyNode.Type() {

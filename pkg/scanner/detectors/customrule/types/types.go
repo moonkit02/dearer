@@ -1,8 +1,8 @@
 package types
 
 import (
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
 )
 
 type Data struct {

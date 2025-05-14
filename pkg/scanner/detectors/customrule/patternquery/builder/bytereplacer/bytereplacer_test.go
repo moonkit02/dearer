@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder/bytereplacer"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder/bytereplacer"
 )
 
 var _ = Describe("Replacer", func() {

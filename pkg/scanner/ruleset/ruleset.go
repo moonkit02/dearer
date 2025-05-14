@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/report/customdetectors"
-	"github.com/bearer/bearer/pkg/util/set"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/report/customdetectors"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 type RuleType int

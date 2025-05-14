@@ -6,8 +6,8 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/detectors/internal/testhelper"
-	"github.com/bearer/bearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/internal/testhelper"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
 )
 
 const detectorType = detectors.DetectorEnvFile

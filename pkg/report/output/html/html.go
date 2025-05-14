@@ -10,10 +10,10 @@ import (
 	term "github.com/buildkite/terminal"
 	"github.com/russross/blackfriday"
 
-	html "github.com/bearer/bearer/pkg/report/output/html/types"
-	privacytypes "github.com/bearer/bearer/pkg/report/output/privacy/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	"github.com/bearer/bearer/pkg/util/maputil"
+	html "github.com/moonkit02/dearer/pkg/report/output/html/types"
+	privacytypes "github.com/moonkit02/dearer/pkg/report/output/privacy/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/pkg/util/maputil"
 )
 
 //go:embed security.tmpl

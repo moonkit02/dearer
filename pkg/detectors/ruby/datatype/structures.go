@@ -1,9 +1,9 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report/schema"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 	"github.com/smacker/go-tree-sitter/ruby"
 )
 

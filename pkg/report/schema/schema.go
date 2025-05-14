@@ -1,10 +1,10 @@
 package schema
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/source"
 )
 
 const (

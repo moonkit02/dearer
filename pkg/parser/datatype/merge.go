@@ -1,7 +1,7 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/report/schema/datatype"
 )
 
 // MergeDatatypesByPropertyNames iterates trough source properties and adds missing datatypes from enrichment

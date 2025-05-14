@@ -1,11 +1,11 @@
 package types
 
 import (
-	dataflowtypes "github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	privacytypes "github.com/bearer/bearer/pkg/report/output/privacy/types"
-	saastypes "github.com/bearer/bearer/pkg/report/output/saas/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	statstypes "github.com/bearer/bearer/pkg/report/output/stats/types"
+	dataflowtypes "github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	privacytypes "github.com/moonkit02/dearer/pkg/report/output/privacy/types"
+	saastypes "github.com/moonkit02/dearer/pkg/report/output/saas/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	statstypes "github.com/moonkit02/dearer/pkg/report/output/stats/types"
 )
 
 type ReportData struct {

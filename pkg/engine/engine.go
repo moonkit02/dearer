@@ -1,10 +1,10 @@
 package engine
 
 import (
-	"github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
 )
 
 type Engine interface {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/bearer/bearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/flag"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"

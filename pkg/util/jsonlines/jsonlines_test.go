@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/util/jsonlines"
+	"github.com/moonkit02/dearer/pkg/util/jsonlines"
 	"github.com/mitchellh/mapstructure"
 	"github.com/stretchr/testify/assert"
 )

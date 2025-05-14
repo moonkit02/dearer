@@ -12,11 +12,11 @@ import (
 	"github.com/xeipuuv/gojsonschema"
 	"sigs.k8s.io/yaml"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/report/customdetectors"
-	"github.com/bearer/bearer/pkg/util/output"
-	"github.com/bearer/bearer/pkg/util/set"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/report/customdetectors"
+	"github.com/moonkit02/dearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 const SCHEMA_URL = "https://raw.githubusercontent.com/Bearer/bearer-rules/main/scripts/rule_schema.json"

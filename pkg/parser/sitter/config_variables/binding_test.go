@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bearer/bearer/pkg/parser/sitter/config_variables"
+	"github.com/moonkit02/dearer/pkg/parser/sitter/config_variables"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

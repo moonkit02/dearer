@@ -1,16 +1,16 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/datatype"
-	"github.com/bearer/bearer/pkg/report/detections"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/datatype"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	php "github.com/bearer/bearer/pkg/parser/sitter/php2"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	php "github.com/moonkit02/dearer/pkg/parser/sitter/php2"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 )
 
 var classesQuery = parser.QueryMustCompile(php.GetLanguage(),

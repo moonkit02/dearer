@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	frameworkclassification "github.com/bearer/bearer/pkg/classification/frameworks"
+	frameworkclassification "github.com/moonkit02/dearer/pkg/classification/frameworks"
 )
 
 func GetClassifiedFramework(detection interface{}) (frameworkclassification.ClassifiedFramework, error) {

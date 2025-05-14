@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/flag"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/flag"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 	"github.com/tangzero/inflector"
 )
 

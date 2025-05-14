@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/commands/process/filelist"
-	"github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 	"github.com/hhatto/gocloc"
 	"github.com/stretchr/testify/assert"
 )

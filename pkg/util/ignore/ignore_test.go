@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bearer/bearer/pkg/util/ignore"
-	types "github.com/bearer/bearer/pkg/util/ignore/types"
+	"github.com/moonkit02/dearer/pkg/util/ignore"
+	types "github.com/moonkit02/dearer/pkg/util/ignore/types"
 )
 
 func TestGetIgnoredFingerprints(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bearer/bearer/e2e/internal/testhelper"
+	"github.com/moonkit02/dearer/e2e/internal/testhelper"
 )
 
 func buildRulesTestCase(testName, path, ruleID string) testhelper.TestCase {

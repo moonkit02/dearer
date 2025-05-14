@@ -5,19 +5,19 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	settingsloader "github.com/bearer/bearer/pkg/commands/process/settings/loader"
-	"github.com/bearer/bearer/pkg/engine"
-	engineimpl "github.com/bearer/bearer/pkg/engine/implementation"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/languages"
-	"github.com/bearer/bearer/pkg/languages/ruby"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	"github.com/bearer/bearer/pkg/report/output/privacy"
-	"github.com/bearer/bearer/pkg/report/output/testhelper"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/version_check"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	settingsloader "github.com/moonkit02/dearer/pkg/commands/process/settings/loader"
+	"github.com/moonkit02/dearer/pkg/engine"
+	engineimpl "github.com/moonkit02/dearer/pkg/engine/implementation"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/languages"
+	"github.com/moonkit02/dearer/pkg/languages/ruby"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/output/privacy"
+	"github.com/moonkit02/dearer/pkg/report/output/testhelper"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/version_check"
 )
 
 func TestBuildCsvString(t *testing.T) {

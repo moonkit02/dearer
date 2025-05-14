@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/bearer/bearer/api"
-	"github.com/bearer/bearer/pkg/util/set"
+	"github.com/moonkit02/dearer/api"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 type Flag struct {

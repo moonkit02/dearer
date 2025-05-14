@@ -1,6 +1,6 @@
 package knex
 
-import "github.com/bearer/bearer/pkg/report/frameworks"
+import "github.com/moonkit02/dearer/pkg/report/frameworks"
 
 const TypeFunction frameworks.Type = "knex_function"
 const TypeSchema frameworks.Type = "knex_schema"

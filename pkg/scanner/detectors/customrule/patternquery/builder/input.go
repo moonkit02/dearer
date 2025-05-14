@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/util/set"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 func processInput(patternLanguage language.Pattern, input string) ([]byte, *InputParams, error) {

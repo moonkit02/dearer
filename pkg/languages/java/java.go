@@ -4,20 +4,20 @@ import (
 	sitter "github.com/smacker/go-tree-sitter"
 	"github.com/smacker/go-tree-sitter/java"
 
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 
-	"github.com/bearer/bearer/pkg/languages/java/analyzer"
-	"github.com/bearer/bearer/pkg/languages/java/detectors/object"
-	stringdetector "github.com/bearer/bearer/pkg/languages/java/detectors/string"
-	"github.com/bearer/bearer/pkg/languages/java/pattern"
-	"github.com/bearer/bearer/pkg/scanner/detectors/datatype"
-	"github.com/bearer/bearer/pkg/scanner/detectors/insecureurl"
-	"github.com/bearer/bearer/pkg/scanner/detectors/stringliteral"
-	"github.com/bearer/bearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/languages/java/analyzer"
+	"github.com/moonkit02/dearer/pkg/languages/java/detectors/object"
+	stringdetector "github.com/moonkit02/dearer/pkg/languages/java/detectors/string"
+	"github.com/moonkit02/dearer/pkg/languages/java/pattern"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/datatype"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/insecureurl"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/stringliteral"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
 )
 
 type implementation struct {

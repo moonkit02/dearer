@@ -6,12 +6,12 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/detectors"
-	"github.com/bearer/bearer/pkg/detectors/golang"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/golang"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
 
-	"github.com/bearer/bearer/pkg/detectors/internal/testhelper"
-	detectortypes "github.com/bearer/bearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/internal/testhelper"
+	detectortypes "github.com/moonkit02/dearer/pkg/report/detectors"
 )
 
 const detectorType = detectortypes.DetectorGo

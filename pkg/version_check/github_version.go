@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-github/github"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
 )
 
 func githubClient() *github.Client {

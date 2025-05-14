@@ -1,10 +1,10 @@
 package interfaces
 
 import (
-	"github.com/bearer/bearer/pkg/parser/interfaces/paths"
-	"github.com/bearer/bearer/pkg/parser/interfaces/urls"
-	"github.com/bearer/bearer/pkg/report/interfaces"
-	"github.com/bearer/bearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/parser/interfaces/paths"
+	"github.com/moonkit02/dearer/pkg/parser/interfaces/urls"
+	"github.com/moonkit02/dearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/report/values"
 )
 
 func KeyIsRelevant(key string) bool {

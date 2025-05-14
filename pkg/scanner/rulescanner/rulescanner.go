@@ -7,13 +7,13 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/cache"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
-	"github.com/bearer/bearer/pkg/scanner/detectorset"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/cache"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/detectorset"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
 )
 
 type Scanner struct {

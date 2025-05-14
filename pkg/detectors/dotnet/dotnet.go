@@ -4,12 +4,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks/dotnet"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/dotnet"
+	"github.com/moonkit02/dearer/pkg/util/file"
 
 	"github.com/smacker/go-tree-sitter/csharp"
 )

@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/golang"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/golang"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
 )
 
 //go:embed testdata/logger.yml

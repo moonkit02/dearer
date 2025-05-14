@@ -1,7 +1,7 @@
 package dotnet
 
 import (
-	"github.com/bearer/bearer/pkg/report/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/frameworks"
 )
 
 const TypeDatabase frameworks.Type = "database"

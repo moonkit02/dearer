@@ -8,16 +8,16 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/bearer/bearer/pkg/languages/ruby"
-	"github.com/bearer/bearer/pkg/scanner/ast"
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/detectors/common"
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/filters"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
-	"github.com/bearer/bearer/pkg/util/pointers"
+	"github.com/moonkit02/dearer/pkg/languages/ruby"
+	"github.com/moonkit02/dearer/pkg/scanner/ast"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/common"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/filters"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
+	"github.com/moonkit02/dearer/pkg/util/pointers"
 )
 
 type MockFilter struct {

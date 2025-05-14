@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/commands/process/gitrepository"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	"github.com/bearer/bearer/pkg/report/output/types"
-	util "github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/gitrepository"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/pkg/report/output/types"
+	util "github.com/moonkit02/dearer/pkg/util/output"
 	"github.com/bradleyjkemp/cupaloy"
 )
 

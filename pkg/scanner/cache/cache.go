@@ -3,10 +3,10 @@ package cache
 import (
 	"github.com/rs/zerolog/log"
 
-	treepkg "github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/detectorset"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/util/set"
+	treepkg "github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/detectorset"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	dependenciesclassification "github.com/bearer/bearer/pkg/classification/dependencies"
+	dependenciesclassification "github.com/moonkit02/dearer/pkg/classification/dependencies"
 )
 
 func GetClassifiedDependency(detection interface{}) (dependenciesclassification.ClassifiedDependency, error) {

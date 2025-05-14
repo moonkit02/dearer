@@ -1,6 +1,6 @@
 package datatype
 
-import "github.com/bearer/bearer/pkg/parser"
+import "github.com/moonkit02/dearer/pkg/parser"
 
 // IsParentedByNodeID checks if her or any of her parents have a given nodeID
 func IsParentedByNodeID(nodeID parser.NodeID, node *parser.Node) bool {

@@ -8,16 +8,16 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	globaltypes "github.com/bearer/bearer/pkg/types"
-	"github.com/bearer/bearer/pkg/util/output"
-	"github.com/bearer/bearer/pkg/util/progressbar"
-	"github.com/bearer/bearer/pkg/util/rego"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	globaltypes "github.com/moonkit02/dearer/pkg/types"
+	"github.com/moonkit02/dearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/util/progressbar"
+	"github.com/moonkit02/dearer/pkg/util/rego"
 
-	"github.com/bearer/bearer/pkg/report/output/privacy/types"
-	"github.com/bearer/bearer/pkg/report/output/security"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
+	"github.com/moonkit02/dearer/pkg/report/output/privacy/types"
+	"github.com/moonkit02/dearer/pkg/report/output/security"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
 )
 
 type RuleInput struct {

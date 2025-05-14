@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/bearer/bearer/api"
-	"github.com/bearer/bearer/pkg/flag"
+	"github.com/moonkit02/dearer/api"
+	"github.com/moonkit02/dearer/pkg/flag"
 )
 
 func GetBearerVersionMeta(languages []string) (*VersionMeta, error) {

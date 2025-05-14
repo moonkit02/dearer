@@ -3,8 +3,8 @@ package detectors_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/ruby"
-	"github.com/bearer/bearer/pkg/scanner/detectors/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/ruby"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/testhelper"
 )
 
 func TestRubyObjectDetector(t *testing.T) {

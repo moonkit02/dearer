@@ -6,9 +6,9 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/languages/java"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
-	patternquerybuilder "github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder"
+	"github.com/moonkit02/dearer/pkg/languages/java"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
+	patternquerybuilder "github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder"
 )
 
 //go:embed testdata/import.yml

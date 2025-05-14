@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/bearer/bearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

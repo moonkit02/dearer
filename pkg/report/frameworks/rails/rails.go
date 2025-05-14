@@ -3,7 +3,7 @@ package rails
 import (
 	"strings"
 
-	"github.com/bearer/bearer/pkg/report/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/frameworks"
 )
 
 const TypeCache frameworks.Type = "cache"

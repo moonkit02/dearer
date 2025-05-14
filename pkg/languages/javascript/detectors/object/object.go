@@ -1,14 +1,14 @@
 package object
 
 import (
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/common"
-	"github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/common"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 )
 
 type objectDetector struct {

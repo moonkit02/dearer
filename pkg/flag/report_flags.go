@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	globaltypes "github.com/bearer/bearer/pkg/types"
-	"github.com/bearer/bearer/pkg/util/set"
-	sliceutil "github.com/bearer/bearer/pkg/util/slices"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	globaltypes "github.com/moonkit02/dearer/pkg/types"
+	"github.com/moonkit02/dearer/pkg/util/set"
+	sliceutil "github.com/moonkit02/dearer/pkg/util/slices"
 )
 
 var (

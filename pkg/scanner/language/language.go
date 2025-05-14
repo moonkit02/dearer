@@ -3,10 +3,10 @@ package language
 import (
 	sitter "github.com/smacker/go-tree-sitter"
 
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 )
 
 type Language interface {

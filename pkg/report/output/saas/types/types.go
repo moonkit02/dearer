@@ -1,9 +1,9 @@
 package types
 
 import (
-	dataflowtypes "github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	ignoretypes "github.com/bearer/bearer/pkg/util/ignore/types"
+	dataflowtypes "github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	ignoretypes "github.com/moonkit02/dearer/pkg/util/ignore/types"
 )
 
 type Meta struct {

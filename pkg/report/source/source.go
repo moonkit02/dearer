@@ -1,7 +1,7 @@
 package source
 
 import (
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 // Source represents a part of a source file that is referenced in the scan report.

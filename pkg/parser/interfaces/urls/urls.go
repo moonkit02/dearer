@@ -4,10 +4,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/report/variables"
-	"github.com/bearer/bearer/pkg/util/normalize_key"
-	"github.com/bearer/bearer/pkg/util/regex"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/util/normalize_key"
+	"github.com/moonkit02/dearer/pkg/util/regex"
 	"golang.org/x/net/publicsuffix"
 )
 

@@ -3,12 +3,12 @@ package schema
 import (
 	"regexp"
 
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/util/classify"
-	"github.com/bearer/bearer/pkg/util/normalize_key"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/util/normalize_key"
 )
 
 var regexpIdentifierMatcher = regexp.MustCompile(`(uu)?id$`)

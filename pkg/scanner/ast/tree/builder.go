@@ -3,7 +3,7 @@ package tree
 import (
 	"slices"
 
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
 	"github.com/bits-and-blooms/bitset"
 	sitter "github.com/smacker/go-tree-sitter"
 )

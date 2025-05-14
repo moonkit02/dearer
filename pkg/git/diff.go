@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/util/linescanner"
+	"github.com/moonkit02/dearer/pkg/util/linescanner"
 )
 
 type ChunkRange struct {

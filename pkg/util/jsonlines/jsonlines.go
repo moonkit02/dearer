@@ -6,7 +6,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/bearer/bearer/pkg/util/linescanner"
+	"github.com/moonkit02/dearer/pkg/util/linescanner"
 )
 
 const maxTokenSizeBytes int = 5 * 1024 * 1024

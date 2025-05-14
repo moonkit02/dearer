@@ -3,11 +3,11 @@ package schema_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	reportschema "github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	reportschema "github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 	"github.com/stretchr/testify/assert"
 )
 

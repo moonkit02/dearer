@@ -1,8 +1,8 @@
 package reviewdog
 
 import (
-	reviewdog "github.com/bearer/bearer/pkg/report/output/reviewdog/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
+	reviewdog "github.com/moonkit02/dearer/pkg/report/output/reviewdog/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
 )
 
 func ReportReviewdog(outputDetections map[string][]securitytypes.Finding) (reviewdog.ReviewdogOutput, error) {

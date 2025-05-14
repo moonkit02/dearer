@@ -9,11 +9,11 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/work"
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/worker"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/stats"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/work"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/worker"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 type Pool struct {

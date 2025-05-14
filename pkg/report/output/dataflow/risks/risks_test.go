@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/report/customdetectors"
-	"github.com/bearer/bearer/pkg/report/output/dataflow"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	"github.com/bearer/bearer/pkg/report/output/detectors"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
-	globaltypes "github.com/bearer/bearer/pkg/types"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/report/customdetectors"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/output/detectors"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
+	globaltypes "github.com/moonkit02/dearer/pkg/types"
 )
 
 func TestDataflowRisks(t *testing.T) {

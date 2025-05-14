@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 var ErrCreateFailed = errors.New("failed to create file")

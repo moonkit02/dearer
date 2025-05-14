@@ -8,7 +8,7 @@ import (
 	"github.com/smacker/go-tree-sitter/javascript"
 	"github.com/smacker/go-tree-sitter/ruby"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 
 	"github.com/bradleyjkemp/cupaloy"
 	"github.com/stretchr/testify/assert"

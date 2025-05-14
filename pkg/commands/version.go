@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/bearer/bearer/pkg/flag"
-	"github.com/bearer/bearer/pkg/util/output"
-	"github.com/bearer/bearer/pkg/version_check"
+	"github.com/moonkit02/dearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/version_check"
 )
 
 func NewVersionCommand(version string, commitSHA string) *cobra.Command {

@@ -3,9 +3,9 @@ package detections
 import (
 	"time"
 
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/source"
 )
 
 type DetectionType string

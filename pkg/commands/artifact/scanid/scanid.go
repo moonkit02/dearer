@@ -10,10 +10,10 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
-	"github.com/bearer/bearer/pkg/commands/process/gitrepository"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/pkg/commands/process/gitrepository"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 func Build(scanSettings settings.Config, gitContext *gitrepository.Context) (string, error) {

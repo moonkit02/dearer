@@ -6,12 +6,12 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/detectors/html"
-	detectortypes "github.com/bearer/bearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/html"
+	detectortypes "github.com/moonkit02/dearer/pkg/report/detectors"
 
-	"github.com/bearer/bearer/pkg/detectors"
-	"github.com/bearer/bearer/pkg/detectors/internal/testhelper"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/detectors"
+	"github.com/moonkit02/dearer/pkg/detectors/internal/testhelper"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
 )
 
 const detectorType = detectortypes.DetectorHTML

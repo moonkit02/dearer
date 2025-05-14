@@ -1,13 +1,13 @@
 package languages
 
 import (
-	"github.com/bearer/bearer/pkg/languages/golang"
-	"github.com/bearer/bearer/pkg/languages/java"
-	"github.com/bearer/bearer/pkg/languages/javascript"
-	"github.com/bearer/bearer/pkg/languages/php"
-	"github.com/bearer/bearer/pkg/languages/python"
-	"github.com/bearer/bearer/pkg/languages/ruby"
-	"github.com/bearer/bearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/languages/golang"
+	"github.com/moonkit02/dearer/pkg/languages/java"
+	"github.com/moonkit02/dearer/pkg/languages/javascript"
+	"github.com/moonkit02/dearer/pkg/languages/php"
+	"github.com/moonkit02/dearer/pkg/languages/python"
+	"github.com/moonkit02/dearer/pkg/languages/ruby"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
 )
 
 func Default() []language.Language {

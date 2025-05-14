@@ -1,7 +1,7 @@
 package queries
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser"
 )
 
 type ChildMatch interface {

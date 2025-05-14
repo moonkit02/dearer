@@ -5,16 +5,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	reporttypes "github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/operations"
-	"github.com/bearer/bearer/pkg/report/operations/operationshelper"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/report/schema/schemahelper"
-	"github.com/bearer/bearer/pkg/util/file"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	reporttypes "github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/operations"
+	"github.com/moonkit02/dearer/pkg/report/operations/operationshelper"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/schema/schemahelper"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 )
 
 var regexpPathVariable = regexp.MustCompile(`\{.+\}`)

@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
 )
 
 //go:embed *.rego

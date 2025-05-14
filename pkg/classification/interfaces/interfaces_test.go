@@ -3,14 +3,14 @@ package interfaces_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/classification/interfaces"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/classification/interfaces"
 
-	"github.com/bearer/bearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detections"
 
-	reportinterfaces "github.com/bearer/bearer/pkg/report/interfaces"
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/util/classify"
+	reportinterfaces "github.com/moonkit02/dearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 	"github.com/stretchr/testify/assert"
 )
 

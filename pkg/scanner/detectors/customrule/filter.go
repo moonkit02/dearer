@@ -6,11 +6,11 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/filters"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/filters"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
 )
 
 func translateFiltersTop(

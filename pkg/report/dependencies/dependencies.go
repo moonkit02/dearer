@@ -1,6 +1,6 @@
 package dependencies
 
-import "github.com/bearer/bearer/pkg/report/detectors"
+import "github.com/moonkit02/dearer/pkg/report/detectors"
 
 type Provider string
 

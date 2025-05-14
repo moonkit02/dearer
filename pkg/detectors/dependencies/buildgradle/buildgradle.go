@@ -1,9 +1,9 @@
 package buildgradle
 
 import (
-	grdlparser "github.com/bearer/bearer/pkg/detectors/dependencies/buildgradle/parser"
-	"github.com/bearer/bearer/pkg/detectors/dependencies/depsbase"
-	"github.com/bearer/bearer/pkg/util/file"
+	grdlparser "github.com/moonkit02/dearer/pkg/detectors/dependencies/buildgradle/parser"
+	"github.com/moonkit02/dearer/pkg/detectors/dependencies/depsbase"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 // Discover parses build.gradle file and add discovered dependencies to report

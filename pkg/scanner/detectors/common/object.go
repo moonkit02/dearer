@@ -1,11 +1,11 @@
 package common
 
 import (
-	"github.com/bearer/bearer/pkg/scanner/ast/traversalstrategy"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/traversalstrategy"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 )
 
 type Object struct {

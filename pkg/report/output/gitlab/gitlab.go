@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
-	gitlab "github.com/bearer/bearer/pkg/report/output/gitlab/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	gitlab "github.com/moonkit02/dearer/pkg/report/output/gitlab/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
 )
 
 func ReportGitLab(

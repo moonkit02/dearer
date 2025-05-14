@@ -3,11 +3,11 @@ package variableshape
 import (
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	patternquerybuilder "github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	patternquerybuilder "github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
 )
 
 type Values []*tree.Node

@@ -7,12 +7,12 @@ import (
 
 	"github.com/open-policy-agent/opa/rego"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/commands/process/settings/processors"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	regohelper "github.com/bearer/bearer/pkg/util/rego"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings/processors"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	regohelper "github.com/moonkit02/dearer/pkg/util/rego"
 )
 
 type processorInput struct {

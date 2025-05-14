@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 	"github.com/weppos/publicsuffix-go/publicsuffix"
 )
 

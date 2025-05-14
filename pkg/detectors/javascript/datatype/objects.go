@@ -3,10 +3,10 @@ package datatype
 import (
 	"strings"
 
-	"github.com/bearer/bearer/pkg/parser"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 	"github.com/smacker/go-tree-sitter/javascript"
 )
 

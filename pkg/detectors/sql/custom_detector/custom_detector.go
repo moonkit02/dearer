@@ -3,9 +3,9 @@ package customdetector
 import (
 	"strings"
 
-	"github.com/bearer/bearer/pkg/detectors/custom/config"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/sitter/sql"
+	"github.com/moonkit02/dearer/pkg/detectors/custom/config"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/sitter/sql"
 )
 
 var language = sql.GetLanguage()

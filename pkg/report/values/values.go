@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/report/variables"
 	"github.com/rs/zerolog/log"
 )
 

@@ -7,7 +7,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 
-	"github.com/bearer/bearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/flag"
 )
 
 var cpuFile *os.File

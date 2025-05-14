@@ -1,8 +1,8 @@
 package testhelper
 
 import (
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/util/regex"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/util/regex"
 )
 
 // new rules are added

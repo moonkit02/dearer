@@ -1,23 +1,23 @@
 package php
 
 import (
-	php "github.com/bearer/bearer/pkg/parser/sitter/php2"
+	php "github.com/moonkit02/dearer/pkg/parser/sitter/php2"
 	sitter "github.com/smacker/go-tree-sitter"
 
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 
-	"github.com/bearer/bearer/pkg/languages/php/analyzer"
-	"github.com/bearer/bearer/pkg/languages/php/detectors/object"
-	stringdetector "github.com/bearer/bearer/pkg/languages/php/detectors/string"
-	"github.com/bearer/bearer/pkg/languages/php/pattern"
-	"github.com/bearer/bearer/pkg/scanner/detectors/datatype"
-	"github.com/bearer/bearer/pkg/scanner/detectors/insecureurl"
-	"github.com/bearer/bearer/pkg/scanner/detectors/stringliteral"
-	"github.com/bearer/bearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/languages/php/analyzer"
+	"github.com/moonkit02/dearer/pkg/languages/php/detectors/object"
+	stringdetector "github.com/moonkit02/dearer/pkg/languages/php/detectors/string"
+	"github.com/moonkit02/dearer/pkg/languages/php/pattern"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/datatype"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/insecureurl"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/stringliteral"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
 )
 
 type implementation struct {

@@ -1,10 +1,10 @@
 package knex
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	reportknex "github.com/bearer/bearer/pkg/report/frameworks/knex"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	reportknex "github.com/moonkit02/dearer/pkg/report/frameworks/knex"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

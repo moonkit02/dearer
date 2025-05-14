@@ -7,13 +7,13 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
-	"github.com/bearer/bearer/pkg/commands/process/gitrepository"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	saas "github.com/bearer/bearer/pkg/report/output/saas/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	"github.com/bearer/bearer/pkg/report/output/types"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/pkg/commands/process/gitrepository"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	saas "github.com/moonkit02/dearer/pkg/report/output/saas/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/pkg/report/output/types"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 func GetReport(

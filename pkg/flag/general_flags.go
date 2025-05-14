@@ -3,8 +3,8 @@ package flag
 import (
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/api"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/api"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 )
 
 const (

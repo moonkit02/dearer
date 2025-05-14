@@ -18,10 +18,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/util/output"
-	"github.com/bearer/bearer/pkg/version_check"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/version_check"
 )
 
 func loadDefinitionsFromRemote(

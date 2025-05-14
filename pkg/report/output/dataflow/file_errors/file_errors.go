@@ -1,8 +1,8 @@
 package file_errors
 
 import (
-	"github.com/bearer/bearer/pkg/report/detections"
-	fileerrors "github.com/bearer/bearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	fileerrors "github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
 )
 
 type Holder struct {

@@ -5,16 +5,16 @@ import (
 
 	"github.com/smacker/go-tree-sitter/protobuf"
 
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/util/file"
-	"github.com/bearer/bearer/pkg/util/pluralize"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/pluralize"
 
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	parserschema "github.com/bearer/bearer/pkg/parser/schema"
-	reporttypes "github.com/bearer/bearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	parserschema "github.com/moonkit02/dearer/pkg/parser/schema"
+	reporttypes "github.com/moonkit02/dearer/pkg/report"
 )
 
 var (

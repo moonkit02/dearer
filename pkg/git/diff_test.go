@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/bearer/bearer/pkg/git"
+	"github.com/moonkit02/dearer/pkg/git"
 )
 
 var _ = Describe("Diff", func() {

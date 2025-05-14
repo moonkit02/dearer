@@ -3,11 +3,11 @@ package dependencies_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/classification/dependencies"
-	reportdependencies "github.com/bearer/bearer/pkg/report/dependencies"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/source"
-	"github.com/bearer/bearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/classification/dependencies"
+	reportdependencies "github.com/moonkit02/dearer/pkg/report/dependencies"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 
 	"github.com/stretchr/testify/assert"
 )

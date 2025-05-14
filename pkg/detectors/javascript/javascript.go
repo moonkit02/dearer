@@ -8,16 +8,16 @@ import (
 
 	sitter "github.com/smacker/go-tree-sitter"
 
-	"github.com/bearer/bearer/pkg/detectors/javascript/datatype"
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/interfacedetector"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/report/variables"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/javascript/datatype"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/interfacedetector"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var (

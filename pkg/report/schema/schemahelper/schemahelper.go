@@ -1,8 +1,8 @@
 package schemahelper
 
 import (
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/source"
 )
 
 type Schema struct {

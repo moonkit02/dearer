@@ -1,8 +1,8 @@
 package operationshelper
 
 import (
-	"github.com/bearer/bearer/pkg/report/operations"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/operations"
+	"github.com/moonkit02/dearer/pkg/report/source"
 )
 
 type Operation struct {

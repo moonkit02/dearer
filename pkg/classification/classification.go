@@ -1,13 +1,13 @@
 package classification
 
 import (
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/classification/dependencies"
-	"github.com/bearer/bearer/pkg/classification/frameworks"
-	"github.com/bearer/bearer/pkg/classification/interfaces"
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/util/url"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/classification/dependencies"
+	"github.com/moonkit02/dearer/pkg/classification/frameworks"
+	"github.com/moonkit02/dearer/pkg/classification/interfaces"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/util/url"
 )
 
 type Classifier struct {

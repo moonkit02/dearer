@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
 )
 
 type API struct {

@@ -3,8 +3,8 @@ package classify_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 	"github.com/stretchr/testify/assert"
 )
 

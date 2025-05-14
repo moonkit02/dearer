@@ -3,11 +3,11 @@ package cache
 import (
 	"github.com/smacker/go-tree-sitter/ruby"
 
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks/rails"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/rails"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var (

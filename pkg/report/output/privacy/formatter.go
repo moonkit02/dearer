@@ -3,11 +3,11 @@ package privacy
 import (
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/flag"
-	"github.com/bearer/bearer/pkg/report/output/html"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
-	outputhandler "github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/report/output/html"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
+	outputhandler "github.com/moonkit02/dearer/pkg/util/output"
 )
 
 type Formatter struct {

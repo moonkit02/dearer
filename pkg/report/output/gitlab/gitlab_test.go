@@ -9,8 +9,8 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	util "github.com/bearer/bearer/pkg/util/output"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	util "github.com/moonkit02/dearer/pkg/util/output"
 )
 
 func TestJuiceShopSarif(t *testing.T) {

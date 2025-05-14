@@ -1,10 +1,10 @@
 package queries
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/schema/schemahelper"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/schema/schemahelper"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

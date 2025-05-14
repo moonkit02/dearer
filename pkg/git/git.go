@@ -14,7 +14,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var (

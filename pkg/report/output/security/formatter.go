@@ -6,17 +6,17 @@ import (
 
 	"github.com/hhatto/gocloc"
 
-	"github.com/bearer/bearer/cmd/bearer/build"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/engine"
-	"github.com/bearer/bearer/pkg/flag"
-	dataflowtypes "github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	"github.com/bearer/bearer/pkg/report/output/gitlab"
-	"github.com/bearer/bearer/pkg/report/output/html"
-	"github.com/bearer/bearer/pkg/report/output/reviewdog"
-	"github.com/bearer/bearer/pkg/report/output/sarif"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
-	outputhandler "github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/engine"
+	"github.com/moonkit02/dearer/pkg/flag"
+	dataflowtypes "github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/output/gitlab"
+	"github.com/moonkit02/dearer/pkg/report/output/html"
+	"github.com/moonkit02/dearer/pkg/report/output/reviewdog"
+	"github.com/moonkit02/dearer/pkg/report/output/sarif"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
+	outputhandler "github.com/moonkit02/dearer/pkg/util/output"
 )
 
 type Formatter struct {

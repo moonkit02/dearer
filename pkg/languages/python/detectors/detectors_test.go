@@ -3,8 +3,8 @@ package detectors_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/python"
-	"github.com/bearer/bearer/pkg/scanner/detectors/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/python"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/testhelper"
 )
 
 func TestPythonObjects(t *testing.T) {

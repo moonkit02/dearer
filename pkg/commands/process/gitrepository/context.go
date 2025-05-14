@@ -13,8 +13,8 @@ import (
 	"golang.org/x/oauth2"
 	"gopkg.in/yaml.v3"
 
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/git"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/git"
 )
 
 type Context struct {

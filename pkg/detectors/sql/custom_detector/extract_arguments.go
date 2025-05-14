@@ -1,11 +1,11 @@
 package customdetector
 
 import (
-	"github.com/bearer/bearer/pkg/detectors/sql/util"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/schema"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/detectors/sql/util"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 )
 
 func (detector *Detector) ExtractArguments(node *parser.Node, idGenerator nodeid.Generator) (map[parser.NodeID]*schemadatatype.DataType, error) {

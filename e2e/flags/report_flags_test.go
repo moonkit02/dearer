@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bearer/bearer/e2e/internal/testhelper"
-	"github.com/bearer/bearer/pkg/util/tmpfile"
+	"github.com/moonkit02/dearer/e2e/internal/testhelper"
+	"github.com/moonkit02/dearer/pkg/util/tmpfile"
 	"github.com/bradleyjkemp/cupaloy"
 )
 

@@ -11,10 +11,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/bearer/bearer/pkg/flag"
-	"github.com/bearer/bearer/pkg/util/ignore"
-	ignoretypes "github.com/bearer/bearer/pkg/util/ignore/types"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/util/ignore"
+	ignoretypes "github.com/moonkit02/dearer/pkg/util/ignore/types"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 var migratedIgnoreComment = "migrated from bearer.yml"

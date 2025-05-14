@@ -1,7 +1,7 @@
 package types
 
 import (
-	privacytypes "github.com/bearer/bearer/pkg/report/output/privacy/types"
+	privacytypes "github.com/moonkit02/dearer/pkg/report/output/privacy/types"
 )
 
 type GroupedThirdParty struct {

@@ -3,12 +3,12 @@ package datatype
 import (
 	"strings"
 
-	"github.com/bearer/bearer/pkg/parser"
-	parserdatatype "github.com/bearer/bearer/pkg/parser/datatype"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/schema"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/parser"
+	parserdatatype "github.com/moonkit02/dearer/pkg/parser/datatype"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 	sitter "github.com/smacker/go-tree-sitter"
 	"github.com/smacker/go-tree-sitter/ruby"
 )

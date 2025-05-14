@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/bearer/bearer/cmd/bearer/build"
-	"github.com/bearer/bearer/external/run"
+	"github.com/moonkit02/dearer/cmd/bearer/build"
+	"github.com/moonkit02/dearer/external/run"
 )
 
 func main() {

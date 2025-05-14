@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/types"
-	"github.com/bearer/bearer/pkg/util/set"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/types"
+	"github.com/moonkit02/dearer/pkg/util/set"
 )
 
 type Flags []flagtypes.FlagGroup

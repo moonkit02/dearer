@@ -7,8 +7,8 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	privacytypes "github.com/bearer/bearer/pkg/report/output/privacy/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
+	privacytypes "github.com/moonkit02/dearer/pkg/report/output/privacy/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
 )
 
 func TestJuiceShopSecurityHtml(t *testing.T) {

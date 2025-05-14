@@ -1,9 +1,9 @@
 package paths
 
 import (
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/operations/operationshelper"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/operations/operationshelper"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
 )
 
 type Holder struct {

@@ -3,16 +3,16 @@ package datatypes
 import (
 	"sort"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/detectiondecoder"
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/detectiondecoder"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/util/classify"
-	"github.com/bearer/bearer/pkg/util/maputil"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/util/maputil"
 )
 
 type Holder struct {

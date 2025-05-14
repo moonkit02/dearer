@@ -3,9 +3,9 @@ package schema_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/classification/schema/internal/testhelper"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/classification/schema/internal/testhelper"
 	"github.com/bradleyjkemp/cupaloy"
 )
 

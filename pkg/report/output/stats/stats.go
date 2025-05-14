@@ -6,12 +6,12 @@ import (
 
 	"github.com/hhatto/gocloc"
 
-	"github.com/bearer/bearer/pkg/classification/db"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/util/maputil"
+	"github.com/moonkit02/dearer/pkg/classification/db"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/util/maputil"
 
-	"github.com/bearer/bearer/pkg/report/output/stats/types"
-	outputtypes "github.com/bearer/bearer/pkg/report/output/types"
+	"github.com/moonkit02/dearer/pkg/report/output/stats/types"
+	outputtypes "github.com/moonkit02/dearer/pkg/report/output/types"
 )
 
 func AddReportData(

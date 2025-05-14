@@ -1,8 +1,8 @@
 package progressbar
 
 import (
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/util/output"
 	"github.com/schollz/progressbar/v3"
 )
 

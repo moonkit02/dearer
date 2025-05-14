@@ -1,9 +1,9 @@
 package sarif
 
 import (
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	sarif "github.com/bearer/bearer/pkg/report/output/sarif/types"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	sarif "github.com/moonkit02/dearer/pkg/report/output/sarif/types"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
 )
 
 func ReportSarif(outputDetections map[string][]securitytypes.Finding, rules map[string]*settings.Rule) (sarif.SarifOutput, error) {

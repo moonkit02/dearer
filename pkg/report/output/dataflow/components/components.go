@@ -4,13 +4,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/report/output/dataflow/types"
+	"github.com/moonkit02/dearer/pkg/report/output/dataflow/types"
 
-	dependenciesclassification "github.com/bearer/bearer/pkg/classification/dependencies"
-	frameworkclassification "github.com/bearer/bearer/pkg/classification/frameworks"
-	interfaceclassification "github.com/bearer/bearer/pkg/classification/interfaces"
-	"github.com/bearer/bearer/pkg/util/classify"
-	"github.com/bearer/bearer/pkg/util/maputil"
+	dependenciesclassification "github.com/moonkit02/dearer/pkg/classification/dependencies"
+	frameworkclassification "github.com/moonkit02/dearer/pkg/classification/frameworks"
+	interfaceclassification "github.com/moonkit02/dearer/pkg/classification/interfaces"
+	"github.com/moonkit02/dearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/util/maputil"
 )
 
 type Holder struct {

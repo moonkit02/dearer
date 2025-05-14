@@ -3,8 +3,8 @@ package detectors_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/golang"
-	"github.com/bearer/bearer/pkg/scanner/detectors/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/golang"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/testhelper"
 )
 
 func TestGoObjects(t *testing.T) {

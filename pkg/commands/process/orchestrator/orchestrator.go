@@ -10,16 +10,16 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/scanner/stats"
-	"github.com/bearer/bearer/pkg/util/jsonlines"
-	bearerprogress "github.com/bearer/bearer/pkg/util/progressbar"
-	"github.com/bearer/bearer/pkg/util/tmpfile"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/util/jsonlines"
+	bearerprogress "github.com/moonkit02/dearer/pkg/util/progressbar"
+	"github.com/moonkit02/dearer/pkg/util/tmpfile"
 
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/pool"
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/work"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/pool"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/work"
 )
 
 type Orchestrator struct {

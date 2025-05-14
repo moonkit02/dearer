@@ -4,9 +4,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/python"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
-	patternquerybuilder "github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder"
+	"github.com/moonkit02/dearer/pkg/languages/python"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
+	patternquerybuilder "github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder"
 	"github.com/bradleyjkemp/cupaloy"
 )
 

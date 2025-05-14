@@ -1,6 +1,6 @@
 package symfony
 
-import "github.com/bearer/bearer/pkg/report/frameworks"
+import "github.com/moonkit02/dearer/pkg/report/frameworks"
 
 const TypeDatabase frameworks.Type = "database"
 

@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/javascript"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/javascript"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
 )
 
 //go:embed testdata/import_rule.yml

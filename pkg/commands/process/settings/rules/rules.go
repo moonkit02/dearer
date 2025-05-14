@@ -10,12 +10,12 @@ import (
 	"github.com/rs/zerolog/log"
 	"gopkg.in/yaml.v2"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/engine"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/report/customdetectors"
-	"github.com/bearer/bearer/pkg/util/set"
-	"github.com/bearer/bearer/pkg/version_check"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/engine"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/report/customdetectors"
+	"github.com/moonkit02/dearer/pkg/util/set"
+	"github.com/moonkit02/dearer/pkg/version_check"
 )
 
 const (

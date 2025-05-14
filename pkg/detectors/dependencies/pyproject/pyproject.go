@@ -4,10 +4,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/smacker/go-tree-sitter/toml"
 
-	"github.com/bearer/bearer/pkg/detectors/dependencies/depsbase"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/util/file"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/detectors/dependencies/depsbase"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 )
 
 var language = toml.GetLanguage()

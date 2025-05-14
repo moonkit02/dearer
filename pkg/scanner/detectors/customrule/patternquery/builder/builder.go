@@ -10,12 +10,12 @@ import (
 	"github.com/rs/zerolog/log"
 	sitter "github.com/smacker/go-tree-sitter"
 
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/scanner/ast"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	asttree "github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder/bytereplacer"
-	"github.com/bearer/bearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/scanner/ast"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	asttree "github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder/bytereplacer"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
 )
 
 type InputParams struct {

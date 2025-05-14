@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/report/operations/operationshelper"
+	"github.com/moonkit02/dearer/pkg/report/operations/operationshelper"
 )
 
 func GetOperation(detection interface{}) (operationshelper.Operation, error) {

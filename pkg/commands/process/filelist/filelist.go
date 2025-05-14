@@ -8,11 +8,11 @@ import (
 	"github.com/hhatto/gocloc"
 	"github.com/rs/zerolog/log"
 
-	flfiles "github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/commands/process/filelist/ignore"
-	"github.com/bearer/bearer/pkg/commands/process/filelist/timeout"
-	"github.com/bearer/bearer/pkg/commands/process/gitrepository"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
+	flfiles "github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/ignore"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/timeout"
+	"github.com/moonkit02/dearer/pkg/commands/process/gitrepository"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
 )
 
 // Discover searches directory for files to scan, skipping the ones specified by skip config and assigning timeout speficfied by timeout config

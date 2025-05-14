@@ -7,12 +7,12 @@ import (
 	"github.com/rs/zerolog/log"
 	"gopkg.in/yaml.v3"
 
-	astquery "github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
+	astquery "github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder"
 )
 
 type Query interface {

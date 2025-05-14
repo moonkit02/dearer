@@ -7,9 +7,9 @@ import (
 	sitter "github.com/smacker/go-tree-sitter"
 	"golang.org/x/exp/slices"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 )
 
 var versionRegex = regexp.MustCompile(`\Av\d+\z`)

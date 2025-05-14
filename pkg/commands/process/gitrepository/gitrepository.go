@@ -11,12 +11,12 @@ import (
 	"github.com/hhatto/gocloc"
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/commands/process/filelist/ignore"
-	"github.com/bearer/bearer/pkg/commands/process/filelist/timeout"
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/git"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/ignore"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/timeout"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/git"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 type Repository struct {

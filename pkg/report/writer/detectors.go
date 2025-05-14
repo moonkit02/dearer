@@ -5,25 +5,25 @@ import (
 	"io"
 	"log"
 
-	classification "github.com/bearer/bearer/pkg/classification"
-	classificationschema "github.com/bearer/bearer/pkg/classification/schema"
+	classification "github.com/moonkit02/dearer/pkg/classification"
+	classificationschema "github.com/moonkit02/dearer/pkg/classification/schema"
 	zerolog "github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
 
-	"github.com/bearer/bearer/pkg/report/dependencies"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/frameworks"
-	"github.com/bearer/bearer/pkg/report/interfaces"
-	"github.com/bearer/bearer/pkg/report/operations"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/report/schema/datatype"
-	"github.com/bearer/bearer/pkg/report/secret"
-	"github.com/bearer/bearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/dependencies"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/report/operations"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/report/secret"
+	"github.com/moonkit02/dearer/pkg/report/source"
 
-	"github.com/bearer/bearer/pkg/util/jsonlines"
+	"github.com/moonkit02/dearer/pkg/util/jsonlines"
 )
 
 type StoredSchema struct {

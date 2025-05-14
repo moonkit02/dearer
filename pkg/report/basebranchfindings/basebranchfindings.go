@@ -3,8 +3,8 @@ package basebranchfindings
 import (
 	"slices"
 
-	"github.com/bearer/bearer/pkg/commands/process/filelist/files"
-	"github.com/bearer/bearer/pkg/git"
+	"github.com/moonkit02/dearer/pkg/commands/process/filelist/files"
+	"github.com/moonkit02/dearer/pkg/git"
 )
 
 type key struct {

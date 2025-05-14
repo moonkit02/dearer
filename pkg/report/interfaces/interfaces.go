@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"github.com/bearer/bearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/report/values"
 )
 
 type Type string

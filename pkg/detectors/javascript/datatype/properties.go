@@ -1,12 +1,12 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	parserdatatype "github.com/bearer/bearer/pkg/parser/datatype"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	parserdatatype "github.com/moonkit02/dearer/pkg/parser/datatype"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 	"github.com/smacker/go-tree-sitter/javascript"
 )
 

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/commands/process/settings/policies"
-	"github.com/bearer/bearer/pkg/commands/process/settings/rules"
-	"github.com/bearer/bearer/pkg/engine"
-	"github.com/bearer/bearer/pkg/flag"
-	flagtypes "github.com/bearer/bearer/pkg/flag/types"
-	"github.com/bearer/bearer/pkg/util/ignore"
-	"github.com/bearer/bearer/pkg/version_check"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings/policies"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings/rules"
+	"github.com/moonkit02/dearer/pkg/engine"
+	"github.com/moonkit02/dearer/pkg/flag"
+	flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
+	"github.com/moonkit02/dearer/pkg/util/ignore"
+	"github.com/moonkit02/dearer/pkg/version_check"
 )
 
 func FromOptions(

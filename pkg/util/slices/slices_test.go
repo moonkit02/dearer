@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	sliceutil "github.com/bearer/bearer/pkg/util/slices"
+	sliceutil "github.com/moonkit02/dearer/pkg/util/slices"
 )
 
 var _ = Describe("Except", func() {

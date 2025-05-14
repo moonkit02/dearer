@@ -1,14 +1,14 @@
 package interfacedetector
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	parsercontext "github.com/bearer/bearer/pkg/parser/context"
-	"github.com/bearer/bearer/pkg/parser/interfaces"
-	"github.com/bearer/bearer/pkg/report"
-	reportinterface "github.com/bearer/bearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/parser"
+	parsercontext "github.com/moonkit02/dearer/pkg/parser/context"
+	"github.com/moonkit02/dearer/pkg/parser/interfaces"
+	"github.com/moonkit02/dearer/pkg/report"
+	reportinterface "github.com/moonkit02/dearer/pkg/report/interfaces"
 
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/values"
 )
 
 type Request struct {

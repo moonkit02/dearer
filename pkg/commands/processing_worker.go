@@ -7,11 +7,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/bearer/bearer/pkg/commands/debugprofile"
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/worker"
-	"github.com/bearer/bearer/pkg/engine"
-	"github.com/bearer/bearer/pkg/flag"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/debugprofile"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/worker"
+	"github.com/moonkit02/dearer/pkg/engine"
+	"github.com/moonkit02/dearer/pkg/flag"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 func NewProcessingWorkerCommand(engine engine.Engine) *cobra.Command {

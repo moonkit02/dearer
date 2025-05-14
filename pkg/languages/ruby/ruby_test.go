@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/languages/ruby"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
+	"github.com/moonkit02/dearer/pkg/languages/ruby"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
 )
 
 //go:embed testdata/rule.yml

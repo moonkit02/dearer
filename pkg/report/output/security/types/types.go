@@ -7,8 +7,8 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/bearer/bearer/pkg/util/file"
-	ignoretypes "github.com/bearer/bearer/pkg/util/ignore/types"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	ignoretypes "github.com/moonkit02/dearer/pkg/util/ignore/types"
 )
 
 type ExpectedDetection struct {

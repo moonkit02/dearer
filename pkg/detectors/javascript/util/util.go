@@ -1,8 +1,8 @@
 package util
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

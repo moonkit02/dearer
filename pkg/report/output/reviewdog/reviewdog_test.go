@@ -8,9 +8,9 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/report/output/reviewdog"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	"github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/report/output/reviewdog"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	"github.com/moonkit02/dearer/pkg/util/output"
 )
 
 func TestRailsGoatReviewdog(t *testing.T) {

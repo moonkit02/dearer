@@ -4,15 +4,15 @@ import (
 	"sort"
 	"strings"
 
-	classificationschema "github.com/bearer/bearer/pkg/classification/schema"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/schema"
-	"github.com/bearer/bearer/pkg/util/classify"
-	"github.com/bearer/bearer/pkg/util/normalize_key"
-	"github.com/bearer/bearer/pkg/util/pluralize"
+	classificationschema "github.com/moonkit02/dearer/pkg/classification/schema"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/util/normalize_key"
+	"github.com/moonkit02/dearer/pkg/util/pluralize"
 )
 
 type ReportDataType interface {

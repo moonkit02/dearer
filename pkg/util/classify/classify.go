@@ -3,7 +3,7 @@ package classify
 import (
 	"regexp"
 
-	"github.com/bearer/bearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
 )
 
 type ValidationState string

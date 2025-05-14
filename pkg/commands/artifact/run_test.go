@@ -3,8 +3,8 @@ package artifact
 import (
 	"testing"
 
-	engineimpl "github.com/bearer/bearer/pkg/engine/implementation"
-	"github.com/bearer/bearer/pkg/languages"
+	engineimpl "github.com/moonkit02/dearer/pkg/engine/implementation"
+	"github.com/moonkit02/dearer/pkg/languages"
 
 	"github.com/hhatto/gocloc"
 	"github.com/stretchr/testify/assert"

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/report/variables"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 

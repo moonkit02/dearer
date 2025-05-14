@@ -1,15 +1,15 @@
 package v2json
 
 import (
-	"github.com/bearer/bearer/pkg/detectors/openapi/json"
-	"github.com/bearer/bearer/pkg/detectors/openapi/queries"
-	"github.com/bearer/bearer/pkg/detectors/openapi/reportadder"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	reporttypes "github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/operations/operationshelper"
-	"github.com/bearer/bearer/pkg/report/schema/schemahelper"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/json"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/queries"
+	"github.com/moonkit02/dearer/pkg/detectors/openapi/reportadder"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	reporttypes "github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/operations/operationshelper"
+	"github.com/moonkit02/dearer/pkg/report/schema/schemahelper"
+	"github.com/moonkit02/dearer/pkg/util/file"
 	"github.com/smacker/go-tree-sitter/javascript"
 )
 

@@ -1,10 +1,10 @@
 package object
 
 import (
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/common"
-	"github.com/bearer/bearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/common"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/types"
 )
 
 func (detector *objectDetector) getProjections(

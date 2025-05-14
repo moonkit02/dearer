@@ -8,10 +8,10 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/report/output/sarif"
-	securitytypes "github.com/bearer/bearer/pkg/report/output/security/types"
-	util "github.com/bearer/bearer/pkg/util/output"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/report/output/sarif"
+	securitytypes "github.com/moonkit02/dearer/pkg/report/output/security/types"
+	util "github.com/moonkit02/dearer/pkg/util/output"
 )
 
 func TestJuiceShopSarif(t *testing.T) {

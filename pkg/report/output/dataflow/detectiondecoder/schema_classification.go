@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	schemaclassification "github.com/bearer/bearer/pkg/classification/schema"
+	schemaclassification "github.com/moonkit02/dearer/pkg/classification/schema"
 
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 )
 
 func GetSchemaClassification(schema schema.Schema) (schemaclassification.Classification, error) {

@@ -1,13 +1,13 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	parserdatatype "github.com/bearer/bearer/pkg/parser/datatype"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	parserdatatype "github.com/moonkit02/dearer/pkg/parser/datatype"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 )
 
 func Discover(report report.Report, tree *parser.Tree, idGenerator nodeid.Generator) {

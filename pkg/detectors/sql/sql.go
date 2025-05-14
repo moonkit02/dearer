@@ -1,13 +1,13 @@
 package sql
 
 import (
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	"github.com/moonkit02/dearer/pkg/util/file"
 
-	reporttypes "github.com/bearer/bearer/pkg/report"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	reporttypes "github.com/moonkit02/dearer/pkg/report"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 )
 
 type detector struct {

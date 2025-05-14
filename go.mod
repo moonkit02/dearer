@@ -1,4 +1,4 @@
-module github.com/bearer/bearer
+module github.com/moonkit02/dearer
 
 go 1.21
 

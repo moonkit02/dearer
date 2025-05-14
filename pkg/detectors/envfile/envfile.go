@@ -6,14 +6,14 @@ import (
 
 	"github.com/smacker/go-tree-sitter/bash"
 
-	"github.com/bearer/bearer/pkg/detectors/types"
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/interfaces"
-	"github.com/bearer/bearer/pkg/report"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	reportinterface "github.com/bearer/bearer/pkg/report/interfaces"
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/detectors/types"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/interfaces"
+	"github.com/moonkit02/dearer/pkg/report"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	reportinterface "github.com/moonkit02/dearer/pkg/report/interfaces"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var (

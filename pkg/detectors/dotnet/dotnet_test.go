@@ -6,9 +6,9 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/detectors/internal/testhelper"
+	"github.com/moonkit02/dearer/pkg/detectors/internal/testhelper"
 
-	reportdetectors "github.com/bearer/bearer/pkg/report/detectors"
+	reportdetectors "github.com/moonkit02/dearer/pkg/report/detectors"
 )
 
 const detectorType = reportdetectors.DetectorDotnet

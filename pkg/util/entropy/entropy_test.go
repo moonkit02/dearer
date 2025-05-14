@@ -6,7 +6,7 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/util/entropy"
+	"github.com/moonkit02/dearer/pkg/util/entropy"
 )
 
 func TestShannon(t *testing.T) {

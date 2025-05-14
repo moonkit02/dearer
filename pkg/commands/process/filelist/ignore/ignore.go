@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
 	"github.com/hhatto/gocloc"
 	"github.com/rs/zerolog/log"
 	ignore "github.com/sabhiram/go-gitignore"

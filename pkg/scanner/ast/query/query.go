@@ -9,7 +9,7 @@ import (
 	sitter "github.com/smacker/go-tree-sitter"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
 )
 
 type Set struct {

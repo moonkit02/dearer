@@ -9,10 +9,10 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/report/source"
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/util/file"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 
 	sitter "github.com/smacker/go-tree-sitter"
 )

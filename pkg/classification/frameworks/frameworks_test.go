@@ -3,16 +3,16 @@ package frameworks_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/classification/frameworks"
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/frameworks/beego"
-	"github.com/bearer/bearer/pkg/report/frameworks/django"
-	"github.com/bearer/bearer/pkg/report/frameworks/dotnet"
-	"github.com/bearer/bearer/pkg/report/frameworks/rails"
-	"github.com/bearer/bearer/pkg/report/frameworks/spring"
-	"github.com/bearer/bearer/pkg/report/frameworks/symfony"
-	"github.com/bearer/bearer/pkg/report/source"
-	"github.com/bearer/bearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/classification/frameworks"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/beego"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/django"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/dotnet"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/rails"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/spring"
+	"github.com/moonkit02/dearer/pkg/report/frameworks/symfony"
+	"github.com/moonkit02/dearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/util/classify"
 
 	"github.com/stretchr/testify/assert"
 )

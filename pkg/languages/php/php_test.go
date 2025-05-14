@@ -7,13 +7,13 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
-	"github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/languages/php"
-	"github.com/bearer/bearer/pkg/languages/testhelper"
-	"github.com/bearer/bearer/pkg/scanner/ast"
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	patternquerybuilder "github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery/builder"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/languages/php"
+	"github.com/moonkit02/dearer/pkg/languages/testhelper"
+	"github.com/moonkit02/dearer/pkg/scanner/ast"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	patternquerybuilder "github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery/builder"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
 )
 
 //go:embed testdata/logger.yml

@@ -1,6 +1,6 @@
 package flag
 
-import flagtypes "github.com/bearer/bearer/pkg/flag/types"
+import flagtypes "github.com/moonkit02/dearer/pkg/flag/types"
 
 type ruleFlagGroup struct{ flagGroupBase }
 

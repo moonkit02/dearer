@@ -13,8 +13,8 @@ import (
 	"github.com/go-enry/go-enry/v2"
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/util/linescanner"
-	"github.com/bearer/bearer/pkg/util/regex"
+	"github.com/moonkit02/dearer/pkg/util/linescanner"
+	"github.com/moonkit02/dearer/pkg/util/regex"
 
 	ignore "github.com/sabhiram/go-gitignore"
 )

@@ -3,7 +3,7 @@ package normalize_key_test
 import (
 	"testing"
 
-	"github.com/bearer/bearer/pkg/util/normalize_key"
+	"github.com/moonkit02/dearer/pkg/util/normalize_key"
 	"github.com/stretchr/testify/assert"
 )
 

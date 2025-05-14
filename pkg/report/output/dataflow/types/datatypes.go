@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/bearer/bearer/pkg/report/schema"
+	"github.com/moonkit02/dearer/pkg/report/schema"
 )
 
 type Datatype struct {

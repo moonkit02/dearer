@@ -6,11 +6,11 @@ import (
 	"net"
 	"testing"
 
-	"github.com/bearer/bearer/pkg/report/detections"
-	"github.com/bearer/bearer/pkg/report/detectors"
-	"github.com/bearer/bearer/pkg/report/source"
-	"github.com/bearer/bearer/pkg/util/classify"
-	"github.com/bearer/bearer/pkg/util/url"
+	"github.com/moonkit02/dearer/pkg/report/detections"
+	"github.com/moonkit02/dearer/pkg/report/detectors"
+	"github.com/moonkit02/dearer/pkg/report/source"
+	"github.com/moonkit02/dearer/pkg/util/classify"
+	"github.com/moonkit02/dearer/pkg/util/url"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,16 +5,16 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/scanner/ast/query"
-	"github.com/bearer/bearer/pkg/scanner/ast/tree"
-	detectortypes "github.com/bearer/bearer/pkg/scanner/detectors/types"
-	"github.com/bearer/bearer/pkg/scanner/language"
-	"github.com/bearer/bearer/pkg/scanner/ruleset"
-	"github.com/bearer/bearer/pkg/scanner/variableshape"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/query"
+	"github.com/moonkit02/dearer/pkg/scanner/ast/tree"
+	detectortypes "github.com/moonkit02/dearer/pkg/scanner/detectors/types"
+	"github.com/moonkit02/dearer/pkg/scanner/language"
+	"github.com/moonkit02/dearer/pkg/scanner/ruleset"
+	"github.com/moonkit02/dearer/pkg/scanner/variableshape"
 
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/filters"
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/patternquery"
-	"github.com/bearer/bearer/pkg/scanner/detectors/customrule/types"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/filters"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/patternquery"
+	"github.com/moonkit02/dearer/pkg/scanner/detectors/customrule/types"
 )
 
 type Pattern struct {

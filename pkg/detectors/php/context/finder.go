@@ -1,10 +1,10 @@
 package context
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	"github.com/bearer/bearer/pkg/parser/context"
-	"github.com/bearer/bearer/pkg/report/variables"
-	"github.com/bearer/bearer/pkg/util/stringutil"
+	"github.com/moonkit02/dearer/pkg/parser"
+	"github.com/moonkit02/dearer/pkg/parser/context"
+	"github.com/moonkit02/dearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/util/stringutil"
 )
 
 func FindContext(tree *parser.Tree) *context.Resolver {

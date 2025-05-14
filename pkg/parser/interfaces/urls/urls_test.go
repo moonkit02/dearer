@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bearer/bearer/pkg/parser/interfaces/urls"
-	"github.com/bearer/bearer/pkg/report/values"
-	"github.com/bearer/bearer/pkg/report/variables"
+	"github.com/moonkit02/dearer/pkg/parser/interfaces/urls"
+	"github.com/moonkit02/dearer/pkg/report/values"
+	"github.com/moonkit02/dearer/pkg/report/variables"
 )
 
 func TestValueIsRelevant(t *testing.T) {

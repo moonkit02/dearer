@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/bearer/bearer/pkg/git"
-	"github.com/bearer/bearer/pkg/util/file"
+	"github.com/moonkit02/dearer/pkg/git"
+	"github.com/moonkit02/dearer/pkg/util/file"
 )
 
 var _ = Describe("GetRoot", func() {

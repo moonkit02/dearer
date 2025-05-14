@@ -3,7 +3,7 @@ package files
 import (
 	"time"
 
-	"github.com/bearer/bearer/pkg/git"
+	"github.com/moonkit02/dearer/pkg/git"
 )
 
 type List struct {

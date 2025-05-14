@@ -4,7 +4,7 @@ import (
 	"embed"
 	"fmt"
 
-	"github.com/bearer/bearer/pkg/util/rego"
+	"github.com/moonkit02/dearer/pkg/util/rego"
 )
 
 //go:embed *.rego

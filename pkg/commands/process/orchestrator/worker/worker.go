@@ -16,16 +16,16 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/bearer/bearer/pkg/classification"
-	"github.com/bearer/bearer/pkg/commands/debugprofile"
-	config "github.com/bearer/bearer/pkg/commands/process/settings"
-	"github.com/bearer/bearer/pkg/detectors"
-	"github.com/bearer/bearer/pkg/engine"
-	"github.com/bearer/bearer/pkg/report/writer"
-	"github.com/bearer/bearer/pkg/scanner"
-	"github.com/bearer/bearer/pkg/scanner/stats"
+	"github.com/moonkit02/dearer/pkg/classification"
+	"github.com/moonkit02/dearer/pkg/commands/debugprofile"
+	config "github.com/moonkit02/dearer/pkg/commands/process/settings"
+	"github.com/moonkit02/dearer/pkg/detectors"
+	"github.com/moonkit02/dearer/pkg/engine"
+	"github.com/moonkit02/dearer/pkg/report/writer"
+	"github.com/moonkit02/dearer/pkg/scanner"
+	"github.com/moonkit02/dearer/pkg/scanner/stats"
 
-	"github.com/bearer/bearer/pkg/commands/process/orchestrator/work"
+	"github.com/moonkit02/dearer/pkg/commands/process/orchestrator/work"
 )
 
 var ErrorTimeoutReached = errors.New("file processing time exceeded")

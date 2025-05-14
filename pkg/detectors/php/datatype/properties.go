@@ -1,12 +1,12 @@
 package datatype
 
 import (
-	"github.com/bearer/bearer/pkg/parser"
-	parserdatatype "github.com/bearer/bearer/pkg/parser/datatype"
-	"github.com/bearer/bearer/pkg/parser/nodeid"
-	php "github.com/bearer/bearer/pkg/parser/sitter/php2"
-	"github.com/bearer/bearer/pkg/report/schema"
-	schemadatatype "github.com/bearer/bearer/pkg/report/schema/datatype"
+	"github.com/moonkit02/dearer/pkg/parser"
+	parserdatatype "github.com/moonkit02/dearer/pkg/parser/datatype"
+	"github.com/moonkit02/dearer/pkg/parser/nodeid"
+	php "github.com/moonkit02/dearer/pkg/parser/sitter/php2"
+	"github.com/moonkit02/dearer/pkg/report/schema"
+	schemadatatype "github.com/moonkit02/dearer/pkg/report/schema/datatype"
 	sitter "github.com/smacker/go-tree-sitter"
 )
 
